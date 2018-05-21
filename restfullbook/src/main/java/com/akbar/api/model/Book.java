@@ -1,9 +1,6 @@
 package com.akbar.api.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(
@@ -14,7 +11,8 @@ public class Book {
     @Id
     @Column(name = "id",
     length = 40)
-    private String id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
 
     @Column(name = "title",
             length = 100)
@@ -25,11 +23,11 @@ public class Book {
     private String author;
 
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 

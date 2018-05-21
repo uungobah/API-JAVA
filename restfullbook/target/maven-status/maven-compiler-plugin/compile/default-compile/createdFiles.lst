@@ -1,0 +1,10 @@
+com\akbar\api\dao\BookDao.class
+com\akbar\api\com\akbar\api\config\WebConfig.class
+com\akbar\api\model\Book.class
+com\akbar\api\com\akbar\api\config\MyWebAppInitializer.class
+com\akbar\api\daoimpl\BookDaoImpl.class
+com\akbar\api\com\akbar\api\component\Dao.class
+com\akbar\api\com\akbar\api\config\AppConfig.class
+com\akbar\api\service\BookService.class
+com\akbar\api\controller\BookController.class
+com\akbar\api\serviceimpl\BookServiceImpl.class
