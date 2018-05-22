@@ -11,8 +11,8 @@
 
     <artifactId>restfull-book</artifactId>
   <packaging>war</packaging>
-    <!--  <name>API-JAVA</name>
-    <dependencies> -->
+    <!--  <name>API-JAVA</name>-->
+    <dependencies>
         <!-- Spring MVC Dependency -->
         <dependency>
             <groupId>org.springframework</groupId>
