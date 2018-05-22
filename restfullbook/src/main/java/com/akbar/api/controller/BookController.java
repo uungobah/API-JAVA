@@ -5,19 +5,24 @@ import com.akbar.api.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
+import java.util.logging.Logger;
 
 @RestController
 public class BookController {
+
+    Logger log = Logger.getLogger(BookController.class.getName());
 
     @Autowired
     private BookService bookService;
 
     /*---Add new book---*/
     @PostMapping("/book")
-    public ResponseEntity<?> save(@RequestBody Book book) {
+    public ResponseEntity<?> save(@RequestBody Book book, HttpServletRequest request) {
         bookService.save(book);
+        request.getSession();
+        log.info("HEADER -->" + request.getHeader("Content-Type"));
         return ResponseEntity.ok().body("New Book has been saved");
     }
 
