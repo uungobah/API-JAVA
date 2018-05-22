@@ -1,1 +1,1 @@
-web:java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT restfullbook/target/*.war
+web:java -jar restfullbook/target/dependency/webapp-runner.jar restfullbook/target/*.war
