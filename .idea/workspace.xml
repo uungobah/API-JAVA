@@ -7,15 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc89a4b4-2244-4c47-83fd-a4a6fd2767b3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restfullbook/target/classes/com/akbar/api/controller/BookController.class" afterPath="$PROJECT_DIR$/restfullbook/target/classes/com/akbar/api/controller/BookController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restfullbook/target/restfull-book-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/restfullbook/target/restfull-book-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restfullbook/target/restfull-book-1.0-SNAPSHOT/WEB-INF/classes/com/akbar/api/controller/BookController.class" afterPath="$PROJECT_DIR$/restfullbook/target/restfull-book-1.0-SNAPSHOT/WEB-INF/classes/com/akbar/api/controller/BookController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/restfullbook_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/restfullbook_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/restfullbook_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/restfullbook_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restfullbook/pom.xml" afterPath="$PROJECT_DIR$/restfullbook/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restfullbook/src/main/java/com/akbar/api/controller/BookController.java" afterPath="$PROJECT_DIR$/restfullbook/src/main/java/com/akbar/api/controller/BookController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restfullbook/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/restfullbook/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,8 +34,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/restfullbook/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="72" column="32" lean-forward="false" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+            <state relative-caret-position="-25">
+              <caret line="68" column="10" lean-forward="true" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -501,12 +493,12 @@
       <workItem from="1526872771271" duration="1561000" />
       <workItem from="1526879412298" duration="2399000" />
       <workItem from="1526898222285" duration="150000" />
-      <workItem from="1526961379839" duration="836000" />
+      <workItem from="1526961379839" duration="1478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26941000" />
+    <option name="totallyTimeSpent" value="27583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -532,7 +524,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3258427" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2827027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -990,8 +982,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/restfullbook/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="72" column="32" lean-forward="false" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+        <state relative-caret-position="-25">
+          <caret line="68" column="10" lean-forward="true" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
           <folding />
         </state>
       </provider>
