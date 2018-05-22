@@ -1,1 +1,1 @@
-web:java -jar restfullbook/target/dependency/webapp-runner.jar restfullbook/target/*.war
+web:java -jar restfullbook/target/dependency/webapp-runner.jar -p $PORT restfullbook/target/*.war
