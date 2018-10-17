@@ -2,6 +2,9 @@ package com.akbar.api.controller;
 
 import com.akbar.api.model.Book;
 import com.akbar.api.service.BookService;
+import com.fasterxml.jackson.databind.util.JSONPObject;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -23,7 +26,16 @@ public class BookController {
         bookService.save(book);
         request.getSession();
         log.info("HEADER -->" + request.getHeader("Content-Type"));
-        return ResponseEntity.ok().body("New Book has been saved");
+        JsonObject object = new JsonObject();
+        object.addProperty("status","Sukses");
+        JsonArray jsonArray = new JsonArray();
+        JsonObject object1 = new JsonObject();
+        object1.addProperty("Author","Äkbar");
+        object1.addProperty("Title","Fisika");
+        jsonArray.add(object1);
+        jsonArray.add(object1);
+        object.add("array",jsonArray);
+        return ResponseEntity.ok().body(object.toString());
     }
 
     /*---Get a book by id---*/
@@ -44,6 +56,7 @@ public class BookController {
     @PutMapping("/book")
     public ResponseEntity<?> update(@RequestBody Book book) {
         bookService.update(book);
+
         return ResponseEntity.ok().body("Book has been updated successfully.");
     }
 
